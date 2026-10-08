@@ -10,13 +10,13 @@ todos:
     status: completed
   - id: p1a-tests-first
     content: "Phase 1a: write failing Vitest DB tests for RLS isolation (incl. hostile REST call with staff JWT) and dashboard_stats correctness"
-    status: pending
+    status: completed
   - id: p1b-schema
     content: "Phase 1b: migrations (tables, denormalization trigger, helper fns, RLS policies, dashboard_stats RPC, reset_demo) + seed; tests green"
-    status: pending
+    status: completed
   - id: gate-1
     content: "Gate 1: pnpm test green against local Supabase; seed loads; staff JWT REST call to other venue returns 0 rows (automated)"
-    status: pending
+    status: completed
   - id: p2-auth-shell
     content: "Phase 2: Supabase SSR auth, login page (password), demo-login server action, role-aware app shell"
     status: pending
