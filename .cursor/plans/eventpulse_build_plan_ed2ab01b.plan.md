@@ -4,10 +4,10 @@ overview: "Turn Project 1 in `portfolio-employer-demand.md` into a concrete publ
 todos:
   - id: p0-scaffold
     content: "Phase 0: create eventpulse repo (Next 16, Tailwind, shadcn, Supabase CLI, lint/typecheck, AGENTS.md from project-stub), push to aikengunay/eventpulse, link Vercel"
-    status: pending
+    status: completed
   - id: gate-0
     content: "Gate 0: pnpm typecheck && pnpm lint green on empty app; supabase start works; repo public; Vercel preview URL loads"
-    status: pending
+    status: completed
   - id: p1a-tests-first
     content: "Phase 1a: write failing Vitest DB tests for RLS isolation (incl. hostile REST call with staff JWT) and dashboard_stats correctness"
     status: pending
